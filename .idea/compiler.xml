@@ -6,14 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="discovery" />
         <module name="spring-cloud-model" />
+        <module name="geteway" />
         <module name="spring-cloud-provider" />
+        <module name="serviceone" />
+        <module name="servicetwo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="spring-cloud-model" target="1.8" />
-      <module name="spring-cloud-provider" target="1.8" />
-      <module name="SpringCloud" target="1.8" />
+      <module name="discovery" target="1.6" />
+      <module name="geteway" target="1.6" />
+      <module name="serviceone" target="1.6" />
+      <module name="servicetwo" target="1.6" />
+      <module name="spring-cloud-model" target="1.6" />
+      <module name="spring-cloud-provider" target="1.6" />
+      <module name="spring-cloud-server" target="1.8" />
+      <module name="SpringCloud" target="1.6" />
     </bytecodeTargetLevel>
   </component>
 </project>
