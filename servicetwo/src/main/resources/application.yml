@@ -7,6 +7,8 @@ eureka:
       defaultZone: http://localhost:8080/eureka/  #注册中心地址
   instance:
     hostname: localhost
-    instance-id: http://localhost:8082
+    instance-id: http://localhost:8083
 server:
-  port: 8082
+  port: 8083
+tomcat:
+  uri-encoding: UTF-8
