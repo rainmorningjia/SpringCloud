@@ -11,3 +11,6 @@ zuul:
   routes:
     service0: /service0/**
     service1: /service1/**
+  retryable: true
+
+#网关超时时间
