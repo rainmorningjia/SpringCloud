@@ -11,10 +11,11 @@
     <modules>
         <module>spring-cloud-model</module>
         <module>spring-cloud-provider</module>
-        <module>serviceone</module>
+        <module>service-provider-one</module>
         <module>discovery</module>
         <module>geteway</module>
-        <module>servicetwo</module>
+        <module>service-consumer-one</module>
+        <module>service-provider-two</module>
     </modules>
     <!--以下dependency来自官方-->
     <parent>
@@ -29,6 +30,7 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
                 <version>Camden.SR6</version>
+<!--                <version>Greenwich.SR2</version>-->
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -42,10 +44,19 @@
                 <artifactId>druid</artifactId>
                 <version>1.1.19</version>
             </dependency>
+            <dependency>
+                <groupId>com.jiayu</groupId>
+                <artifactId>spring-cloud-model</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <dependencies>
+        <dependency>
+            <groupId>com.jiayu</groupId>
+            <artifactId>spring-cloud-model</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-config</artifactId>

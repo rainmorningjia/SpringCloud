@@ -6,8 +6,11 @@ spring:
   application:
     name: gateway
 server:
-  port: 8084
+  port: 8085
 zuul:
   routes:
-    service0: /service0/**
-    service1: /service1/**
+    service-consumer: /service-consumer/**
+    service-provider: /service-provider/**
+  retryable: true
+
+#网关超时时间

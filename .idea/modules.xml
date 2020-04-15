@@ -5,8 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
       <module fileurl="file://$PROJECT_DIR$/discovery/discovery.iml" filepath="$PROJECT_DIR$/discovery/discovery.iml" />
       <module fileurl="file://$PROJECT_DIR$/geteway/geteway.iml" filepath="$PROJECT_DIR$/geteway/geteway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/serviceone/serviceone.iml" filepath="$PROJECT_DIR$/serviceone/serviceone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/servicetwo/servicetwo.iml" filepath="$PROJECT_DIR$/servicetwo/servicetwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-consumer-one/service-consumer-one.iml" filepath="$PROJECT_DIR$/service-consumer-one/service-consumer-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider-one/service-provider-one.iml" filepath="$PROJECT_DIR$/service-provider-one/service-provider-one.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-provider-two/service-provider-two.iml" filepath="$PROJECT_DIR$/service-provider-two/service-provider-two.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-model/spring-cloud-model.iml" filepath="$PROJECT_DIR$/spring-cloud-model/spring-cloud-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-provider/spring-cloud-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-provider/spring-cloud-provider.iml" />
     </modules>

@@ -71,6 +71,8 @@
     <orderEntry type="library" name="Maven: io.reactivex:rxjava:1.1.10" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-eureka:2.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.24" level="project" />
+    <orderEntry type="module" module-name="spring-cloud-model" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.14" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-starter-config:1.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.cloud:spring-cloud-config-client:1.2.3.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.7" level="project" />

@@ -6,11 +6,12 @@
     <file url="file://$PROJECT_DIR$/discovery/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/geteway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/geteway/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/serviceone" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/serviceone/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/serviceone/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/servicetwo" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/servicetwo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-consumer-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-consumer-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-consumer-one/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-provider-one" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-provider-one/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/service-provider-two/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-model" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-provider" charset="UTF-8" />

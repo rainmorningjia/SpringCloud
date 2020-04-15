@@ -15,4 +15,6 @@ public class TestUser {
     private String userName;
 
     private String address;
+
+    private Integer count;
 }

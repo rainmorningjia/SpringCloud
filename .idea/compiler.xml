@@ -2,23 +2,26 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="discovery" />
         <module name="spring-cloud-model" />
+        <module name="service-provider-two" />
         <module name="geteway" />
         <module name="spring-cloud-provider" />
-        <module name="serviceone" />
-        <module name="servicetwo" />
+        <module name="service-provider-one" />
+        <module name="service-consumer-one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="discovery" target="1.6" />
       <module name="geteway" target="1.6" />
-      <module name="serviceone" target="1.6" />
-      <module name="servicetwo" target="1.6" />
+      <module name="service-consumer-one" target="1.6" />
+      <module name="service-provider-one" target="1.6" />
+      <module name="service-provider-two" target="1.6" />
       <module name="spring-cloud-model" target="1.6" />
       <module name="spring-cloud-provider" target="1.6" />
       <module name="spring-cloud-server" target="1.8" />
