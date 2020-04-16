@@ -12,5 +12,16 @@ zuul:
     service-consumer: /service-consumer/**
     service-provider: /service-provider/**
   retryable: true
-
+ribbon:
+  eureka:
+    enable: true
+service-provider:
+  ribbon:
+    listOfServices: http://localhost:8003,http://192.168.1.4:8004
+gateway:
+  ribbon:
+    ConnectTimeout: 1000 #连接超时时间
+    ReadTimeout: 3000 #读取超时时间 注：一般情况下都是ribbon读取超时 因为ribbon本身默认是5000所以碰到下载文件的时候很容易出现超时问题
 #网关超时时间
+
+

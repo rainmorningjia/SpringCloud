@@ -12,3 +12,10 @@ server:
   port: 8083
 tomcat:
   uri-encoding: UTF-8
+#hystrix:
+#  command:
+#    myusers-service:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: ...

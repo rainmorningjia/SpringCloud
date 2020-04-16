@@ -1,6 +1,8 @@
 package com.jiayu.serviceone.feignclient;
 
-import org.springframework.cloud.netflix.feign.FeignClient;
+
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @FeignClient(name = "service-provider", fallback = FeignClientFallback.class)
 public interface FeignClientTest {
 
+    @LoadBalanced
     @RequestMapping(value = "/serviceProvider/test", method = RequestMethod.GET)
     String getServiceTwoInfo();
 
