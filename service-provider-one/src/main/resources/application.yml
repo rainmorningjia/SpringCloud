@@ -5,6 +5,9 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8080/eureka/  #注册中心地址
+#  instance:  回影响两个相同serviceID的服务无法同时注册到统一实例上
+#    hostname: localhost
+#    instance-id: http://localhost:8083
 server:
   port: 8083
 tomcat:
